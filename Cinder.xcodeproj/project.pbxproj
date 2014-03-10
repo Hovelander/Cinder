@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC3766518CD3FB0006F15DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3766418CD3FB0006F15DD /* Foundation.framework */; };
+		FDC3766718CD3FB0006F15DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3766618CD3FB0006F15DD /* CoreGraphics.framework */; };
+		FDC3766918CD3FB0006F15DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3766818CD3FB0006F15DD /* UIKit.framework */; };
+		FDC3766F18CD3FB1006F15DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC3766D18CD3FB1006F15DD /* InfoPlist.strings */; };
+		FDC3767118CD3FB1006F15DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3767018CD3FB1006F15DD /* main.m */; };
+		FDC3767518CD3FB1006F15DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3767418CD3FB1006F15DD /* AppDelegate.m */; };
+		FDC3767818CD3FB1006F15DD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC3767618CD3FB1006F15DD /* Main_iPhone.storyboard */; };
+		FDC3767B18CD3FB1006F15DD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC3767918CD3FB1006F15DD /* Main_iPad.storyboard */; };
+		FDC3767E18CD3FB1006F15DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3767D18CD3FB1006F15DD /* ViewController.m */; };
+		FDC3768018CD3FB1006F15DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC3767F18CD3FB1006F15DD /* Images.xcassets */; };
+		FDC3768718CD3FB1006F15DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3768618CD3FB1006F15DD /* XCTest.framework */; };
+		FDC3768818CD3FB1006F15DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3766418CD3FB0006F15DD /* Foundation.framework */; };
+		FDC3768918CD3FB1006F15DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3766818CD3FB0006F15DD /* UIKit.framework */; };
+		FDC3769118CD3FB1006F15DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC3768F18CD3FB1006F15DD /* InfoPlist.strings */; };
+		FDC3769318CD3FB1006F15DD /* CinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3769218CD3FB1006F15DD /* CinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC3768A18CD3FB1006F15DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC3765918CD3FB0006F15DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC3766018CD3FB0006F15DD;
+			remoteInfo = Cinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC3766118CD3FB0006F15DD /* Cinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC3766418CD3FB0006F15DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDC3766618CD3FB0006F15DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDC3766818CD3FB0006F15DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDC3766C18CD3FB1006F15DD /* Cinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cinder-Info.plist"; sourceTree = "<group>"; };
+		FDC3766E18CD3FB1006F15DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDC3767018CD3FB1006F15DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDC3767218CD3FB1006F15DD /* Cinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cinder-Prefix.pch"; sourceTree = "<group>"; };
+		FDC3767318CD3FB1006F15DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDC3767418CD3FB1006F15DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDC3767718CD3FB1006F15DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FDC3767A18CD3FB1006F15DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FDC3767C18CD3FB1006F15DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDC3767D18CD3FB1006F15DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDC3767F18CD3FB1006F15DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDC3768518CD3FB1006F15DD /* CinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC3768618CD3FB1006F15DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDC3768E18CD3FB1006F15DD /* CinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CinderTests-Info.plist"; sourceTree = "<group>"; };
+		FDC3769018CD3FB1006F15DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDC3769218CD3FB1006F15DD /* CinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC3765E18CD3FB0006F15DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3766718CD3FB0006F15DD /* CoreGraphics.framework in Frameworks */,
+				FDC3766918CD3FB0006F15DD /* UIKit.framework in Frameworks */,
+				FDC3766518CD3FB0006F15DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC3768218CD3FB1006F15DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3768718CD3FB1006F15DD /* XCTest.framework in Frameworks */,
+				FDC3768918CD3FB1006F15DD /* UIKit.framework in Frameworks */,
+				FDC3768818CD3FB1006F15DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC3765818CD3FB0006F15DD = {
+			isa = PBXGroup;
+			children = (
+				FDC3766A18CD3FB1006F15DD /* Cinder */,
+				FDC3768C18CD3FB1006F15DD /* CinderTests */,
+				FDC3766318CD3FB0006F15DD /* Frameworks */,
+				FDC3766218CD3FB0006F15DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC3766218CD3FB0006F15DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3766118CD3FB0006F15DD /* Cinder.app */,
+				FDC3768518CD3FB1006F15DD /* CinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC3766318CD3FB0006F15DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3766418CD3FB0006F15DD /* Foundation.framework */,
+				FDC3766618CD3FB0006F15DD /* CoreGraphics.framework */,
+				FDC3766818CD3FB0006F15DD /* UIKit.framework */,
+				FDC3768618CD3FB1006F15DD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC3766A18CD3FB1006F15DD /* Cinder */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3767318CD3FB1006F15DD /* AppDelegate.h */,
+				FDC3767418CD3FB1006F15DD /* AppDelegate.m */,
+				FDC3767618CD3FB1006F15DD /* Main_iPhone.storyboard */,
+				FDC3767918CD3FB1006F15DD /* Main_iPad.storyboard */,
+				FDC3767C18CD3FB1006F15DD /* ViewController.h */,
+				FDC3767D18CD3FB1006F15DD /* ViewController.m */,
+				FDC3767F18CD3FB1006F15DD /* Images.xcassets */,
+				FDC3766B18CD3FB1006F15DD /* Supporting Files */,
+			);
+			path = Cinder;
+			sourceTree = "<group>";
+		};
+		FDC3766B18CD3FB1006F15DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3766C18CD3FB1006F15DD /* Cinder-Info.plist */,
+				FDC3766D18CD3FB1006F15DD /* InfoPlist.strings */,
+				FDC3767018CD3FB1006F15DD /* main.m */,
+				FDC3767218CD3FB1006F15DD /* Cinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDC3768C18CD3FB1006F15DD /* CinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3769218CD3FB1006F15DD /* CinderTests.m */,
+				FDC3768D18CD3FB1006F15DD /* Supporting Files */,
+			);
+			path = CinderTests;
+			sourceTree = "<group>";
+		};
+		FDC3768D18CD3FB1006F15DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3768E18CD3FB1006F15DD /* CinderTests-Info.plist */,
+				FDC3768F18CD3FB1006F15DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC3766018CD3FB0006F15DD /* Cinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC3769618CD3FB1006F15DD /* Build configuration list for PBXNativeTarget "Cinder" */;
+			buildPhases = (
+				FDC3765D18CD3FB0006F15DD /* Sources */,
+				FDC3765E18CD3FB0006F15DD /* Frameworks */,
+				FDC3765F18CD3FB0006F15DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinder;
+			productName = Cinder;
+			productReference = FDC3766118CD3FB0006F15DD /* Cinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC3768418CD3FB1006F15DD /* CinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC3769918CD3FB1006F15DD /* Build configuration list for PBXNativeTarget "CinderTests" */;
+			buildPhases = (
+				FDC3768118CD3FB1006F15DD /* Sources */,
+				FDC3768218CD3FB1006F15DD /* Frameworks */,
+				FDC3768318CD3FB1006F15DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC3768B18CD3FB1006F15DD /* PBXTargetDependency */,
+			);
+			name = CinderTests;
+			productName = CinderTests;
+			productReference = FDC3768518CD3FB1006F15DD /* CinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC3765918CD3FB0006F15DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Abulafia;
+				TargetAttributes = {
+					FDC3768418CD3FB1006F15DD = {
+						TestTargetID = FDC3766018CD3FB0006F15DD;
+					};
+				};
+			};
+			buildConfigurationList = FDC3765C18CD3FB0006F15DD /* Build configuration list for PBXProject "Cinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC3765818CD3FB0006F15DD;
+			productRefGroup = FDC3766218CD3FB0006F15DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC3766018CD3FB0006F15DD /* Cinder */,
+				FDC3768418CD3FB1006F15DD /* CinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC3765F18CD3FB0006F15DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3767B18CD3FB1006F15DD /* Main_iPad.storyboard in Resources */,
+				FDC3768018CD3FB1006F15DD /* Images.xcassets in Resources */,
+				FDC3767818CD3FB1006F15DD /* Main_iPhone.storyboard in Resources */,
+				FDC3766F18CD3FB1006F15DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC3768318CD3FB1006F15DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3769118CD3FB1006F15DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC3765D18CD3FB0006F15DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3767E18CD3FB1006F15DD /* ViewController.m in Sources */,
+				FDC3767518CD3FB1006F15DD /* AppDelegate.m in Sources */,
+				FDC3767118CD3FB1006F15DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC3768118CD3FB1006F15DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3769318CD3FB1006F15DD /* CinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC3768B18CD3FB1006F15DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC3766018CD3FB0006F15DD /* Cinder */;
+			targetProxy = FDC3768A18CD3FB1006F15DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC3766D18CD3FB1006F15DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3766E18CD3FB1006F15DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDC3767618CD3FB1006F15DD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3767718CD3FB1006F15DD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC3767918CD3FB1006F15DD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3767A18CD3FB1006F15DD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC3768F18CD3FB1006F15DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3769018CD3FB1006F15DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC3769418CD3FB1006F15DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC3769518CD3FB1006F15DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC3769718CD3FB1006F15DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinder/Cinder-Prefix.pch";
+				INFOPLIST_FILE = "Cinder/Cinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDC3769818CD3FB1006F15DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinder/Cinder-Prefix.pch";
+				INFOPLIST_FILE = "Cinder/Cinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDC3769A18CD3FB1006F15DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinder.app/Cinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinder/Cinder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CinderTests/CinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDC3769B18CD3FB1006F15DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinder.app/Cinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinder/Cinder-Prefix.pch";
+				INFOPLIST_FILE = "CinderTests/CinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC3765C18CD3FB0006F15DD /* Build configuration list for PBXProject "Cinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC3769418CD3FB1006F15DD /* Debug */,
+				FDC3769518CD3FB1006F15DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC3769618CD3FB1006F15DD /* Build configuration list for PBXNativeTarget "Cinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC3769718CD3FB1006F15DD /* Debug */,
+				FDC3769818CD3FB1006F15DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDC3769918CD3FB1006F15DD /* Build configuration list for PBXNativeTarget "CinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC3769A18CD3FB1006F15DD /* Debug */,
+				FDC3769B18CD3FB1006F15DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC3765918CD3FB0006F15DD /* Project object */;
+}
